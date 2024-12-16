@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 100px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: lightblue;
+    
+}
+
+header{
+    display:flex;
+    height: 200px;
+    width: 100%;
+    text-align:center; 
+    line-height: 100px;
+    color:aquamarine;
+    align-items:center;
+    background-image:url(img/ojo.png);
+    background-position:center;
+    background-size: cover;
+    
+    }
+    
+    
+    nav{
+        background: lightblue;
+        height: 50px;
+        border-bottom: solid black;
+    }
+    
+    nav ul li{
+         float: left;
+         list-style: none;
+         margin:10px;
+        line-height: 30px;
+    
+    }
+    .clearfix{
+        clear:both;
+        
+    }
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.producto {
+    text-align: center;
+    max-width: 200px;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.producto img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.producto p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+a{
+	color:white;
+  }
+  
+  a:hover{
+	color: purple;
+  }
+  
+  a:active{
+	color: yellow;
+  }
+
+
+h1:hover{
+	transform:scale(1.15);
+
+}
+
+
+img:hover{
+	transform:scale(1.05);
+}

@@ -1,0 +1,177 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ #container{
+ width: 90%;
+ margin: 40px auto;
+ border: 1px solid black;
+ 
+}
+header{
+display:flex;
+height: 200px;
+width: 100%;
+text-align:center; 
+line-height: 100px;
+color:aquamarine;
+align-items:center;
+background-image:url(img/ojo.png);
+background-position:center;
+background-size: cover;
+
+}
+
+
+nav{
+	background: lightblue;
+	height: 50px;
+	border-bottom: solid black;
+}
+
+nav ul li{
+	 float: left;
+	 list-style: none;
+	 margin:10px;
+	line-height: 30px;
+
+}
+.clearfix{
+	clear:both;
+	
+}
+
+.content{
+	float:left;
+	min-height: 480px;
+	width: calc(20% - 20px);
+}
+
+
+.article{
+	position: relative;
+}
+
+aside{
+	
+	float:right;
+	width:80%;
+	background:white;
+	min-height:480px;
+	
+
+}
+footer{
+	color:navy;
+	text-align: right;
+	height: 100px;
+	line-height: 100px ;
+	background-image:url(img/piepagina.png);
+	-webkit-background-size:cover;
+	justify-content: space-between;
+	font-weight: 500;
+
+}
+
+#Titulo{
+	text-align: center;
+	list-style:none;
+	
+}
+
+
+a{
+	color:white;
+  }
+  
+  a:hover{
+	color: purple;
+  }
+  
+  a:active{
+	color: yellow;
+  }
+
+
+h1:hover{
+	transform:scale(1.15);
+
+}
+
+
+img:hover{
+	transform:scale(1.05);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-size: cover;
+	font-weight: 500;	
+	background-image: linear-gradient(to top,rgb(0, 255, 170), rgb(0, 89, 255));
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+p{
+	text-align: justify;
+	padding: 10px;
+	
+}
+
+.formulario button {
+    position: relative;
+    border: 3px solid black;
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+	height: 25px;
+    top: -40px;
+	right: -5px;
+    background: linear-gradient(to top, rgb(255, 0, 170), rgb(0, 89, 255));
+    color: white;
+    padding: 5px 10px;
+    border-radius:0% 100% 0% 100% / 66% 29% 71% 34% ;
+    white-space: nowrap;
+}
+
+button:hover .tooltip {
+    visibility: visible;
+}
+
+
+
